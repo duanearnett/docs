@@ -3435,9 +3435,11 @@ This module lists store items by an account. Store items are listed by the date 
     
 `exclusive`
 
-    include or exclude items that are exclusive; be default exclusive items will only be included for fans
+    include or exclude items that are exclusive; by default exclusive items will only be included for fans
+    
+    a value of "always" will include both exclusive and non-exclusive content in the same list
 
-    accepted values are true and false
+    accepted values are true, false, and "always"
     
     defaults to null
     
